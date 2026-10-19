@@ -1,0 +1,34 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Databases and database backups
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local configuration
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build and temporary files
+coverage/
+dist/
+tmp/
+temp/
